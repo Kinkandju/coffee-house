@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <title>Menu Coffee House Resource</title>
+</head>
+<body class="layout-container">
+    <div class="wrapper-container">
+        <header class="header">
+    <a class="header__logo logo" href="index.html">
+        <img src="assets/img/logo.svg" width="100" height="60" alt="logo image">
+    </a>
+
+    <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#favourites-coffee">Favorite coffee</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#about">About</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#mobile-app">Mobile app</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="#contact-us">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <a class="header__link link" href="menu.html">
+        Menu
+        <svg class="link__svg" width="20" height="20">
+            <use xlink:href="assets/img/icons/icons.svg#icon-cup" href="assets/img/icons/icons.svg#icon-cup"></use>
+        </svg>
+    </a>
+
+    <button class="header__button button" type="button"></button>
+</header>
+
+        <main>
+            <section class="section menu">
+    <h1 class="visually-hidden">Menu Coffee House Resource</h1>
+    <h2>Behind each of our cups hides an <span class="section__word">amazing surprise</span></h2>
+
+    <div class="menu__container">
+        <button class="menu__button button menu__button--coffee active" data-category="coffee" type="button"></button>
+        <button class="menu__button button menu__button--tea" data-category="tea" type="button"></button>
+        <button class="menu__button button menu__button--dessert" data-category="dessert" type="button"></button>
+    </div>
+
+    <ul class="menu__list list"></ul>
+
+    <button class="menu__button button menu__button--refresh" type="button"></button>
+</section>
+        </main>
+    
+        <footer class="footer" id="contact-us">
+    <div class="footer__social-network social-network">
+        <h2>Sip, Savor, Smile. <span class="footer__word">It&apos;s coffee time!</span></h2>
+        <ul class="social-network__list">
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--twitter" href="https://twitter.com/">
+                    <span class="visually-hidden">twitter link</span>
+                </a>
+            </li>
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--instagram" href="https://www.instagram.com/">
+                    <span class="visually-hidden">instagram link</span>
+                </a>
+            </li>
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--facebook" href="https://www.facebook.com/">
+                    <span class="visually-hidden">facebook link</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__contacts contacts">
+        <h3>Contact us</h3>
+        <ul class="contacts__list">
+            <li class="contacts__item item">
+                <a class="item__link link" href="https://www.google.ru/maps/place/8558+Greene+Ave,+Los+Angeles,+CA+90066,+USA/@33.9943717,-118.4223881,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2ba6d911db3db:0x8f9e732fe8fe1778!8m2!3d33.9943673!4d-118.4198132?entry=ttu">
+                    <svg class="item__svg" width="20" height="20">
+                        <use xlink:href="assets/img/icons/icons.svg#icon-pin" href="assets/img/icons/icons.svg#icon-pin"></use>
+                    </svg>
+                    8558 Green Rd.,&nbsp;&nbsp;LA
+                </a>
+            </li>
+            <li class="contacts__item item">
+                <a class="item__link link" href="tel:+6035550123">
+                    <svg class="item__svg" width="20" height="20">
+                        <use xlink:href="assets/img/icons/icons.svg#icon-tel" href="assets/img/icons/icons.svg#icon-tel"></use>
+                    </svg>
+                    +1 (603) 555-0123
+                </a>
+            </li>
+            <li class="contacts__item item">
+                <svg class="item__svg" width="20" height="20">
+                    <use xlink:href="assets/img/icons/icons.svg#icon-clock" href="assets/img/icons/icons.svg#icon-clock"></use>
+                </svg>
+                <span class="item__text">Mon-Sat: 9:00 AM &ndash; 23:00 PM</span>
+            </li>
+        </ul>
+    </div>
+</footer>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
