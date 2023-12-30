@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <title>Coffee House Resource</title>
+</head>
+<body class="layout-container">
+    <div class="wrapper-container">
+        <header class="header">
+    <a class="header__logo logo" href="index.html">
+        <img src="assets/img/logo.svg" width="100" height="60" alt="logo image">
+    </a>
+
+    <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#favourites-coffee">Favorite coffee</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#about">About</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="index.html#mobile-app">Mobile app</a>
+            </li>
+            <li class="navigation__item item">
+                <a class="item__link link" href="#contact-us">Contact us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <a class="header__link link" href="menu.html">
+        Menu
+        <svg class="link__svg" width="20" height="20">
+            <use xlink:href="assets/img/icons/icons.svg#icon-cup" href="assets/img/icons/icons.svg#icon-cup"></use>
+        </svg>
+    </a>
+
+    <button class="header__button button" type="button"></button>
+</header>
+
+        <main>
+            <section class="section enjoy">
+    <video class="enjoy__video" poster="assets/img/img-hero.jpg" playsinline autoplay muted loop>
+        <source src="assets/videos/video.mp4" type="video/mp4">
+    </video>
+    <div class="enjoy__container">
+        <h1><span class="section__word">Enjoy</span> premium coffee at our charming cafe</h1>
+        <p class="enjoy__text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+        <a class="enjoy__link" href="menu.html"></a>
+    </div>
+</section>
+            <section class="section favourites-coffee" id="favourites-coffee">
+    <h2>Choose your <span class="section__word">favorite</span> coffee</h2>
+    <div class="favourites-coffee__slider slider">
+        <div class="slider__container">
+            <button class="slider__button button slider__button--left" type="button"></button>
+    
+            <div class="slider__slide slide active">
+                <img class="slide__img" src="assets/img/coffee-slider-1.png" width="480" height="480" alt="slide Frappuccino">
+                <h3>S&apos;mores Frappuccino</h3>
+                <p class="slide__text">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                <span class="slide__price">&#36;5.50</span>
+            </div>
+
+            <div class="slider__slide slide">
+                <img class="slide__img" src="assets/img/coffee-slider-2.png" width="480" height="480" alt="slide Caramel Macchiato">
+                <h3>Caramel Macchiato</h3>
+                <p class="slide__text">Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.</p>
+                <span class="slide__price">&#36;5.00</span>
+            </div>
+
+            <div class="slider__slide slide">
+                <img class="slide__img" src="assets/img/coffee-slider-3.png" width="480" height="480" alt="slide Ice coffee">
+                <h3>Ice coffee</h3>
+                <p class="slide__text">A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.</p>
+                <span class="slide__price">&#36;4.50</span>
+            </div>
+    
+            <button class="slider__button button slider__button--right" type="button"></button>
+        </div>
+
+        <ul class="slider__controls controls">
+            <li class="controls__control-element active"></li>
+            <li class="controls__control-element"></li>
+            <li class="controls__control-element"></li>
+        </ul>
+    </div>
+</section>
+            <section class="section about" id="about">
+    <h2>Resource is <span class="section__word">the perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+    <div class="about__gallery gallery">
+        <div class="gallery__container">
+            <div class="gallery__scale">
+                <div class="gallery__img gallery__img--one"></div>
+            </div>
+            <div class="gallery__scale">
+                <div class="gallery__img gallery__img--two"></div>
+            </div>
+        </div>
+        <div class="gallery__container">
+            <div class="gallery__scale">
+                <div class="gallery__img gallery__img--three"></div>
+            </div>
+            <div class="gallery__scale">
+                <div class="gallery__img gallery__img--four"></div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="section mobile-app" id="mobile-app">
+    <div class="mobile-app__container">
+        <h2><span class="section__word">Download</span> our apps to start ordering</h2>
+        <p class="mobile-app__text">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+        <div class="mobile-app__links links">
+            <a class="links__appstore" href="https://www.apple.com/app-store/">
+                <span class="visually-hidden">App Store</span>
+            </a>
+            <a class="links__googleplay" href="https://play.google.com/store/games?hl=en&gl=US">
+                <span class="visually-hidden">Google Play</span>
+            </a>
+        </div>
+    </div>
+    <img class="mobile-app__img" src="assets/img/mobile-screens.png" width="630" height="630" alt="Mobile screens image">
+</section>
+        </main>
+    
+        <footer class="footer" id="contact-us">
+    <div class="footer__social-network social-network">
+        <h2>Sip, Savor, Smile. <span class="footer__word">It&apos;s coffee time!</span></h2>
+        <ul class="social-network__list">
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--twitter" href="https://twitter.com/">
+                    <span class="visually-hidden">twitter link</span>
+                </a>
+            </li>
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--instagram" href="https://www.instagram.com/">
+                    <span class="visually-hidden">instagram link</span>
+                </a>
+            </li>
+            <li class="social-network__item">
+                <a class="social-network__link social-network__link--facebook" href="https://www.facebook.com/">
+                    <span class="visually-hidden">facebook link</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer__contacts contacts">
+        <h3>Contact us</h3>
+        <ul class="contacts__list">
+            <li class="contacts__item item">
+                <a class="item__link link" href="https://www.google.ru/maps/place/8558+Greene+Ave,+Los+Angeles,+CA+90066,+USA/@33.9943717,-118.4223881,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2ba6d911db3db:0x8f9e732fe8fe1778!8m2!3d33.9943673!4d-118.4198132?entry=ttu">
+                    <svg class="item__svg" width="20" height="20">
+                        <use xlink:href="assets/img/icons/icons.svg#icon-pin" href="assets/img/icons/icons.svg#icon-pin"></use>
+                    </svg>
+                    8558 Green Rd.,&nbsp;&nbsp;LA
+                </a>
+            </li>
+            <li class="contacts__item item">
+                <a class="item__link link" href="tel:+6035550123">
+                    <svg class="item__svg" width="20" height="20">
+                        <use xlink:href="assets/img/icons/icons.svg#icon-tel" href="assets/img/icons/icons.svg#icon-tel"></use>
+                    </svg>
+                    +1 (603) 555-0123
+                </a>
+            </li>
+            <li class="contacts__item item">
+                <svg class="item__svg" width="20" height="20">
+                    <use xlink:href="assets/img/icons/icons.svg#icon-clock" href="assets/img/icons/icons.svg#icon-clock"></use>
+                </svg>
+                <span class="item__text">Mon-Sat: 9:00 AM &ndash; 23:00 PM</span>
+            </li>
+        </ul>
+    </div>
+</footer>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
